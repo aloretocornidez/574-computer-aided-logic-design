@@ -12,7 +12,7 @@ module behavioral (hikingClub, basketBallTeam, going_out);
     going_out <= 0;
   end
 
-  always @(*) 
+  always @(*)
   begin
     // Only going out if at least one member from each team is going with me.
     going_out <= (hikingClub[0] | hikingClub[1]) & (basketBallTeam[0] | basketBallTeam[1]);
@@ -29,15 +29,15 @@ endmodule
 module gate_or (in, out);
   
   input in[0:1];
-  output out;
+  output reg out;
 
   initial begin
-    output <= 0;
+    out <= 0;
   end
 
   always @(*) begin 
 
-    output <= in[0] | in[1];
+    out <= in[0] | in[1];
 
   end
 
@@ -48,16 +48,14 @@ endmodule
 module gate_and ( in, out);
 
   input in[0:1];
-  output out;
+  output reg out;
 
   initial begin
-    output <= 0;
+    out <= 0;
   end
 
   always @(*) begin 
-
-    output <= in[0] & in[1];
-
+    out <= in[0] & in[1];
   end
 
 
@@ -69,16 +67,11 @@ module structural (hikingClub, basketBallTeam, going_out);
 
   input hikingClub[0:1];
   input basketBallTeam[0:1];
-  output going_out;
-
+  output reg going_out;
   
-
-  
-
-  gate_and myAnd()
-
+  always @(*)
+  begin
     going_out <= hikingClub[0] | hikingClub[1] && basketBallTeam[0] | basketBallTeam[1];
-
   end
 
 endmodule
