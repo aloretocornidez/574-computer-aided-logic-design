@@ -1,0 +1,402 @@
+{
+ "builder": {
+  "_version": "<undefined>",
+  "_logger": "hdl_checker.builders.fallback",
+  "_work_folder": "/home/alan-manuel/Downloads/574-computer-aided-logic-design/.hdl_checker",
+  "_builtin_libraries": [],
+  "_added_libraries": [
+   {
+    "name": "default_library",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   }
+  ],
+  "__class__": "Fallback"
+ },
+ "config_file": [
+  {
+   "name": "/tmp/hdl_checker_project_pid17973.json",
+   "__class__": "Path"
+  },
+  1705000945.316511,
+  "generated"
+ ],
+ "database": {
+  "sources": [
+   {
+    "path": {
+     "name": "/home/alan-manuel/Downloads/574-computer-aided-logic-design/homework/homework-0/twoFriends.v",
+     "__class__": "Path"
+    },
+    "mtime": 1705002004.0648134,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   }
+  ],
+  "inferred_libraries": [
+   {
+    "name": "/tmp/tmpdac2h3x2.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmprixpnd4l.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp723oaaj6.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpjrmgu6ga.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpsri0xf8y.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpvbqm6cbs.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpmft0zwrb.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp2pp7mw58.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpgrcqtmhh.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpiflk7tu_.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpzrvkam7b.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpeff4gux5.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpo56cjvz3.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpqr4skpdn.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpnkrat9kr.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp9qjowv4s.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp_xkh6s8o.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpsxaj84ws.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpwfu8zidt.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpabjcrn1o.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp41ug3736.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpvoj_cnty.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpt09ilfq5.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpx91cbjd7.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp27a1un0a.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmphx__y9rw.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpaelby_x_.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpfw2ddyw3.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp71t3h7a1.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpyd3nsw7k.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmprx0cjwt_.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp6heijnat.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmph5l90svq.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpy9ywbojr.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpi__84yme.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpqj_cgwx9.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp6o35zeld.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpuseiqogh.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpi44h50kl.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpxwl9i6r9.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpj0x68jr3.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmptmupisxx.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmptz04kwtc.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp01gktf9_.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpzl3vtldw.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmprz45lxeb.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpslrt5tz4.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmptiilm8ln.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpxwaz3q7y.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpeeocb_bm.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp6wokkcqg.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp77jefpug.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpgcaai09k.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpympgzt3n.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp5gx8o0vr.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp4jsowgg_.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpdx7xxe3m.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpw4iumkm_.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpygta5oa9.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp_fx38__p.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpia_2mjnv.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpd6kexrtq.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpvhv9r1ot.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpvjribhlp.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpxj0mayjc.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmprbsmsl1v.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp0irq48_7.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmprvbozzew.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/home/alan-manuel/Downloads/574-computer-aided-logic-design/homework/homework-0/twoFriends.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpj1sy2kve.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpc4roz2le.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpy95wtu8h.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpaiz3lgh5.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpox9wa_a4.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmporaex4n7.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpitas2ffr.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp9kqrq96j.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmputc1zu3j.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp3otb4e6l.v",
+    "__class__": "Path"
+   }
+  ],
+  "design_units": [
+   {
+    "owner": {
+     "name": "/home/alan-manuel/Downloads/574-computer-aided-logic-design/homework/homework-0/twoFriends.v",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "structural",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      27,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/alan-manuel/Downloads/574-computer-aided-logic-design/homework/homework-0/twoFriends.v",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "behavioral",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      4,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   }
+  ],
+  "__class__": "Database"
+ },
+ "__version__": "0.7.4"
+}
