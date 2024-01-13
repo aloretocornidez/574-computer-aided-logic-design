@@ -26,7 +26,7 @@ endmodule
 
 // Logic done in a structural manner.
 // or gate
-module gate_or (in, out);
+module orGate (in, out);
   
   input in[0:1];
   output reg out;
@@ -45,7 +45,7 @@ module gate_or (in, out);
 endmodule
 
 // and gate
-module gate_and ( in, out);
+module andGate ( in, out);
 
   input in[0:1];
   output reg out;
@@ -65,13 +65,27 @@ endmodule
 module structural (hikingClub, basketBallTeam, going_out);
   
 
-  input hikingClub[0:1];
-  input basketBallTeam[0:1];
-  output reg going_out;
+  input wire hikingClub[0:1];
+  input wire basketBallTeam[0:1];
   
-  always @(*)
-  begin
-    going_out <= hikingClub[0] | hikingClub[1] && basketBallTeam[0] | basketBallTeam[1];
-  end
+  
+  wire wire1;
+  wire wire2;
+  
+  output going_out;
+  
+  
+  andGate and1;
+  orGate or1;
+  orGate or1;
+  
+  or1(hikingClub, wire1);
+  or2(basketBallTeam, wire2);
+  
+  and1(wire1, wire2, going_out); 
+  
+  
+  
+  
 
 endmodule
