@@ -26,3 +26,5 @@ the circuit.
 | Mux 2x1 | a,b         | sel            | d            |                 | Multiplexor                                                |
 | SHR     | a           | sh_amt         | d            |                 | Logically shifts the input `sh_amt` position to the right. |
 | SHL     |             |                |              |                 | Logically shifts the input `sh_amt` position to the left.  |
+| DIV | a,b |  | quot | Returns the quotient of  a / b | 
+| MOD | 
